@@ -1,6 +1,7 @@
 # Testing
 readfiles for the gef
-===
+---
+---
 
 The GEF is a software developed in the frame of EUDAT 2020 as part of the Horizon 2020 programme of the European Union. It enables execution of containerized software tools on data stored in the EUDAT Collaborative Data Infrastructure (CDI). The GEF employs the Docker software containerization technology and uses specifically annotated Docker container images called GEF services for scientific data processing. By deploying these GEF services to Dockerized computational resources as close to the data as possible, data transfers can be minimized. GEF services can also be reused to reproduce results or toolchains. Data inputs to GEF services can be specified via PID or URL before they are automatically transferred to the processing location. Configuration of the GEF allows it to interface with Docker Server and Docker Swarm installations on various platforms. Users can interact with the GEF via a graphical interface (GUI) or an HTTP application programming interface (API). The GEF is using an SQLite database for internal data storage. Using a different SQL database is possible.
 
@@ -8,9 +9,11 @@ The software has grown to a beta release version that is capable of processing d
 
 Please be aware that while this repository is licensed under the GNU General Public License v2.0, usage of operational EUDAT services like the ones mentioned above (B2SHARE, B2SAFE, ...) is bound to the EUDAT Services Terms of Use.
 
+---
+
 This documentation includes:
 
-The Core Idea: GEF Services
+*The Core Idea: GEF Services
 Software Containerization with Docker
 GEF Demo Services and Services for Internal Use
 GEF Service Metadata
