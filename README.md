@@ -13,8 +13,8 @@ Please be aware that while this repository is licensed under the GNU General Pub
 
 This documentation includes:
 
-*The Core Idea: GEF Services
-Software Containerization with Docker
+* 1. The Core Idea: GEF Services
+**  i. Software Containerization with Docker
 GEF Demo Services and Services for Internal Use
 GEF Service Metadata
 The GEF Testing Instance
